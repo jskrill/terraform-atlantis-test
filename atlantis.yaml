@@ -5,7 +5,7 @@ discover_projects_with_missing_config: true
 parallel_plan: true
 parallel_apply: true
 projects:
-- name: test-proj-1
+- name: test-proj-2
   dir: test-proj-2
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl", "contents_src"]
