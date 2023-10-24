@@ -1,7 +1,7 @@
 version: 3
 automerge: false
 delete_source_branch_on_merge: true
-discover_projects_with_missing_config: false
+# discover_projects_with_missing_config: false
 parallel_plan: true
 parallel_apply: true
 projects:
