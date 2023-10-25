@@ -1,7 +1,7 @@
 version: 3
 automerge: false
 delete_source_branch_on_merge: true
-autoplan:
+autodiscover:
   mode: disabled
 parallel_plan: true
 parallel_apply: true
