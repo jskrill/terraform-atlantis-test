@@ -3,9 +3,3 @@ automerge: false
 delete_source_branch_on_merge: true
 parallel_plan: true
 parallel_apply: true
-projects:
-- name: test-proj-2
-  dir: test-proj-2
-  autoplan:
-    when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl", "contents_src"]
-    enabled: true
