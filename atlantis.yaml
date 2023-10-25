@@ -1,10 +1,10 @@
 version: 3
 automerge: false
 delete_source_branch_on_merge: true
-autoplan:
-  mode: enabled
 parallel_plan: true
 parallel_apply: true
+autodiscover:
+  mode: enabled
 projects:
 - name: test-proj-2
   dir: test-proj-2
