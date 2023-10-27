@@ -4,7 +4,7 @@ delete_source_branch_on_merge: true
 parallel_plan: true
 parallel_apply: true
 autodiscover:
-  mode: enabled
+  mode: auto
 projects:
 - name: test-proj-2
   dir: test-proj-2
